@@ -1,0 +1,74 @@
+.h2-center {
+    text-align: center;
+}
+
+.family-tree {
+    width: 100%;
+    float: none;
+}
+
+.family-tree .family-intro {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.family-tree .family-intro img {
+    width: 180px;
+    height: 180px;
+    border: solid #a0a0a0 10px;
+    border-radius: 90px;
+}
+
+.family-tree .family-intro h3 {
+    text-align: center;
+    font-size: 15px;
+}
+
+@media (max-width: 480px) {
+    .photo-galary-small-img {
+        width: 100vw;
+        height: 100%;
+    }
+}
+
+@media (min-width: 480px) {
+    .photo-galary-small-img {
+        height: 200px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .photo-galary-small-img {
+        height: 250px;
+    }
+}
+
+.photo-galary-small-img{
+
+    border: 10px solid #ffffff;
+    border-radius: 10px;
+}
+
+.photo-galary-small-img:hover{
+    -moz-transform: scale(1.1) rotate(4deg);
+    -ms-transform: scale(1.1) rotate(4deg);
+    -o-transform: scale(1.1) rotate(4deg);
+    -webkit-transform: scale(1.1) rotate(4deg);
+    transform: scale(1.1) rotate(4deg);
+
+    -moz-transition: all 1.5s;
+    -ms-transition: all 1.5s;
+    -o-transition: all 1.5s;
+    -webkit-transition: all 1.5s;
+    transition: all 1.5s;
+}
+
+.photo-galary-small-img .left:hover {
+    -moz-transform: scale(1.1) rotate(-4deg);
+    -ms-transform: scale(1.1) rotate(-4deg);
+    -o-transform: scale(1.1) rotate(-4deg);
+    -webkit-transform: scale(1.1) rotate(-4deg);
+    transform: scale(1.1) rotate(-4deg);
+}

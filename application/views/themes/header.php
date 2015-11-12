@@ -61,7 +61,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="container" >
 
         <!--Logo -->
-        <h1 ><a href = "#" id = "logo" > Sakshi sang Prashant </a ></h1 >
-        <?php $this->load->view(THEME_NAV_MENU); ?>
+        <h1 ><a href = "#" id = "logo" > Sakshi &amp; Prashant </a ></h1 >
+
+        <h2>December 7<sup>th</sup> - 2015</h2>
     </div>
 </div>
+<?php $this->load->view(THEME_NAV_MENU); ?>
