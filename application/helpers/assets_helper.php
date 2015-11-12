@@ -19,7 +19,9 @@ if (!function_exists('assets_url')) {
      */
     function assets_url($group = null)
     {
-        $site_base_url = rtrim(rtrim(site_url(),'/'),'/index.php');
+        $site_base_url = rtrim(site_url(), "/");
+        $site_base_url = rtrim($site_base_url, "index.php");
+        $site_base_url = rtrim($site_base_url, "/");
         $group_str = "";
         if (null != $group) {
             if (is_array($group)) {
@@ -28,7 +30,7 @@ if (!function_exists('assets_url')) {
                 $group_str = "{$group}";
             }
         }
-        $url =  "{$site_base_url}/assets/{$group_str}";
+        $url = "{$site_base_url}/assets/{$group_str}";
         return rtrim($url, '/');
     }
 }
