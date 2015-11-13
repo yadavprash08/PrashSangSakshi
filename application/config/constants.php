@@ -89,7 +89,7 @@ define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
  * Constants for defining the theme based constants
  * --------------------------------------------------------------------------------
  */
-define('THEME_HOME_HEADER', 'themes/home-header.php');
+define('THEME_HOME_HEADER', 'themes/new-header.php');
 define('THEME_HEADER', 'themes/header.php');
 define('THEME_FOOTER', 'themes/footer.php');
 define('THEME_NAV_MENU', 'themes/top-nav-menu.php');

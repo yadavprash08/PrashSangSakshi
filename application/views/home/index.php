@@ -1,47 +1,16 @@
-<!-- Program details -->
+<!-- Featured -->
 <div class="wrapper style1">
     <section class="container">
         <header class="major">
-            <h2>Programs</h2>
-            <span class="byline"></span>
-        </header>
-        <div class="row no-collapse-1" style="align-items: center; text-align: center;">
-            <section class="4u">
-                <a href="#" class="image feature programs-icons" style="margin: 10px;"><i
-                        class="glyphicon glyphicon-music"></i></a>
-
-                <h2>Reception</h2>
-
-                <p><b>Sunday December 6<sup>th</sup>, 2015</b> at <b>Hotel Laxmi Villas</b></p>
-            </section>
-
-            <section class="4u">
-                <a href="#" class="image feature programs-icons" style="margin: 10px;"><i
-                        class="glyphicon glyphicon-glass"></i></a>
-
-                <h2>Reception</h2>
-
-                <p><b>Sunday December 6<sup>th</sup>, 2015</b> at <b>Hotel Laxmi Villas</b></p>
-            </section>
-
-            <section class="4u">
-                <a href="#" class="image feature programs-icons" style="margin: 10px;"><i
-                        class="glyphicon glyphicon-home"></i></a>
-
-                <h2>Marriage</h2>
-
-                <p><b>Monday December 7<sup>th</sup>, 2015</b> at <b>Entertainment Paradise</b></p>
-            </section>
-        </div>
-    </section>
-</div>
-
-<!-- Featured -->
-<div class="wrapper style2">
-    <section class="container">
-        <header class="major">
-            <h2>Groom&apos;s Story</h2>
-            <span class="byline">Prashant Yadav</span>
+            <div class="row">
+                <div class="col-md-3">&nbsp;</div>
+                <div class="col-md-1"><i class="fa fa-windows fa-4x"></i></div>
+                <div class="col-md-4"><h2>Bride &amp; Groom</h2>
+                    <!--<light>Sakshi &amp; Prashant</light>-->
+                </div>
+                <div class="col-md-1"><i class="fa fa-amazon fa-4x"></i></div>
+                <div class="col-md-3">&nbsp;</div>
+            </div>
         </header>
         <div class="row no-collapse-1">
             <section class="4u">
@@ -64,9 +33,10 @@
 
         </div>
     </section>
+    <div class="image-arrows2">&nbsp;</div>
 </div>
 <!-- Main -->
-<div id="main" class="wrapper style1">
+<div class="wrapper style2">
     <section class="container">
         <header class="major">
             <h2>Bride&apos;s Story</h2>
@@ -114,106 +84,142 @@
 
         </div>
     </section>
+    <div class="image-arrows">&nbsp;</div>
 </div>
 
 <!-- Featured -->
-<div class="wrapper style2">
-    <section class="container">
+<div class="wrapper style1">
+    <div class="container">
         <header class="major">
-            <h2>Photo&nbsp;Gallery</h2>
+            <h2>Gallery</h2>
             <span class="byline">Prashant Yadav</span>
         </header>
-        <div class="row no-collapse-1">
-            <section class="4u">
-                <a href="#" class="image feature"><img class="left photo-galary-small-img"
-                                                       src="<?php echo assets_url('images/photo-galery'); ?>/pic01.jpg"
-                                                       alt=""></a>
-            </section>
-            <section class="4u">
-                <a href="#" class="image feature"><img class="photo-galary-small-img"
-                                                       src="<?php echo assets_url('images/photo-galery'); ?>/pic02.jpg"
-                                                       alt=""></a>
-            </section>
-            <section class="4u">
-                <a href="#" class="image feature"><img class="photo-galary-small-img"
-                                                       src="<?php echo assets_url('images/photo-galery'); ?>//pic03.jpg"
-                                                       alt=""></a>
-            </section>
-
+        <div class="row">
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
+                <a href="#" class="image feature">
+                    <img class="left photo-galary-small-img"
+                             src="<?php echo assets_url('images/photo-galery'); ?>/pic01.jpg"
+                             alt="">
+                </a>
+            </div>
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
+                <a href="#" class="image feature">
+                    <img class="photo-galary-small-img"
+                             src="<?php echo assets_url('images/photo-galery'); ?>/pic02.jpg"
+                             alt="">
+                </a>
+            </div>
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
+                <a href="#" class="image feature">
+                    <img class="photo-galary-small-img"
+                             src="<?php echo assets_url('images/photo-galery'); ?>//pic03.jpg"
+                             alt="">
+                </a>
+            </div>
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
+                <a href="#" class="image feature">
+                    <img class="photo-galary-small-img left"
+                             src="<?php echo assets_url('images/photo-galery'); ?>/pic04.jpg"
+                             alt="">
+                </a>
+            </div>
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
+                <a href="#" class="image feature">
+                    <img class="photo-galary-small-img"
+                             src="<?php echo assets_url('images/photo-galery'); ?>/pic05.jpg"
+                             alt="">
+                </a>
+            </div>
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
+                <a href="#" class="image feature">
+                    <img class="photo-galary-small-img"
+                             src="<?php echo assets_url('images/photo-galery'); ?>/pic06.jpg"
+                             alt="">
+                </a>
+            </div>
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
+                <a href="#" class="image feature">
+                    <img class="photo-galary-small-img left"
+                             src="<?php echo assets_url('images/photo-galery'); ?>/pic07.jpg"
+                             alt="">
+                </a>
+            </div>
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
+                <a href="#" class="image feature">
+                    <img class="photo-galary-small-img"
+                             src="<?php echo assets_url('images/photo-galery'); ?>/pic08.jpg"
+                             alt="">
+                </a>
+            </div>
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
+                <a href="#" class="image feature">
+                    <img class="photo-galary-small-img"
+                             src="<?php echo assets_url('images/photo-galery'); ?>/pic09.jpg"
+                             alt="">
+                </a>
+            </div>
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
+                <a href="#" class="image feature">
+                    <img class="photo-galary-small-img"
+                             src="<?php echo assets_url('images/photo-galery'); ?>/pic09.jpg"
+                             alt="">
+                </a>
+            </div>
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
+                <a href="#" class="image feature">
+                    <img class="photo-galary-small-img"
+                             src="<?php echo assets_url('images/photo-galery'); ?>/pic09.jpg"
+                             alt="">
+                </a>
+            </div>
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
+                <a href="#" class="image feature">
+                    <img class="photo-galary-small-img"
+                             src="<?php echo assets_url('images/photo-galery'); ?>/pic09.jpg"
+                             alt="">
+                </a>
+            </div>
         </div>
-
-        <div class="row no-collapse-1">
-            <section class="4u">
-                <a href="#" class="image feature"><img class="photo-galary-small-img left"
-                                                       src="<?php echo assets_url('images/photo-galery'); ?>/pic04.jpg"
-                                                       alt=""></a>
-            </section>
-            <section class="4u">
-                <a href="#" class="image feature"><img class="photo-galary-small-img"
-                                                       src="<?php echo assets_url('images/photo-galery'); ?>/pic05.jpg"
-                                                       alt=""></a>
-            </section>
-            <section class="4u">
-                <a href="#" class="image feature"><img class="photo-galary-small-img"
-                                                       src="<?php echo assets_url('images/photo-galery'); ?>/pic06.jpg"
-                                                       alt=""></a>
-            </section>
-
-        </div>
-
-        <div class="row no-collapse-1">
-            <section class="4u">
-                <a href="#" class="image feature"><img class="photo-galary-small-img left"
-                                                       src="<?php echo assets_url('images/photo-galery'); ?>/pic07.jpg"
-                                                       alt=""></a>
-            </section>
-            <section class="4u">
-                <a href="#" class="image feature"><img class="photo-galary-small-img"
-                                                       src="<?php echo assets_url('images/photo-galery'); ?>/pic08.jpg"
-                                                       alt=""></a>
-            </section>
-            <section class="4u">
-                <a href="#" class="image feature"><img class="photo-galary-small-img"
-                                                       src="<?php echo assets_url('images/photo-galery'); ?>/pic09.jpg"
-                                                       alt=""></a>
-            </section>
-
-        </div>
-    </section>
+        </section>
+    </div>
+    <div class="image-arrows2">&nbsp;</div>
 </div>
 
-<div class="wrapper style1">
+<div class="wrapper style2">
     <section class="container">
         <header class="major">
             <h2 class="h2-center">Our Family</h2>
         </header>
 
-        <div class="row">
-            <div class="family-tree">
-                <div class="family-intro">
-                    <img src="<?php echo assets_url('images/SatyaveerSingh.jpg') ?>">
+        <div class="row family-tree">
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 family-intro">
+                <img src="<?php echo assets_url('images/SatyaveerSingh.jpg') ?>">
 
-                    <h3>Dr. Satyaveer Singh</h3>
-                </div>
+                <h3>Dr. Satyaveer Singh</h3>
+            </div>
 
-                <div class="family-intro">
-                    <img src="<?php echo assets_url('images/RajniDevi.jpg') ?>">
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 family-intro">
+                <img src="<?php echo assets_url('images/RajniDevi.jpg') ?>">
 
-                    <h3>Smt. Rajni Devi</h3>
-                </div>
+                <h3>Smt. Rajni Devi</h3>
+            </div>
 
-                <div class="family-intro">
-                    <img src="<?php echo assets_url('images/SDAgarwal.jpg') ?>">
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 family-intro">
+                <img src="<?php echo assets_url('images/SDAgarwal.jpg') ?>">
 
-                    <h3>Sh. S.D. Agarwal</h3>
-                </div>
+                <h3>Sh. S.D. Agarwal</h3>
+            </div>
 
-                <div class="family-intro">
-                    <img src="<?php echo assets_url('images/SarojAgarwal.jpg') ?>">
+            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 family-intro">
+                <img src="<?php echo assets_url('images/SarojAgarwal.jpg') ?>">
 
-                    <h3>Smt. Saroj Agarwal</h3>
-                </div>
+                <h3>Smt. Saroj Agarwal</h3>
             </div>
         </div>
     </section>
+    <div class="image-arrows">&nbsp;</div>
+</div>
+
+<div class="wrapper style1" style="height: 20vh;">
+
 </div>

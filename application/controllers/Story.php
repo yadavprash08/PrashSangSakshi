@@ -12,9 +12,9 @@ class Story extends CI_Controller
 
     public function index()
     {
-        $this->load->view(THEME_HEADER);
+        // $this->load->view(THEME_HEADER);
         // @todo custom code goes here
         $this->load->view('story/index.php');
-        $this->load->view(THEME_FOOTER);
+        //$this->load->view(THEME_FOOTER);
     }
 }

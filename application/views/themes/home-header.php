@@ -19,27 +19,25 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
         <meta name="description" content=""/>
         <meta name="keywords" content=""/>
-        <link rel="stylesheet" href="<?php echo assets_css_url('bootstrap') ?>/corousal.css"/>
-        <link rel="stylesheet" href="<?php echo assets_css_url('bootstrap') ?>/glyphicon.css"/>
-        <link rel="stylesheet" href="<?php echo assets_css_url('timeline') ?>/style.css"/>
+        <?php
+        if (isset($include_bootstrap)) {
+            ?>
+            <link rel="stylesheet" href="<?php echo assets_css_url('bootstrap') ?>/corousal.css"/>
+            <link rel="stylesheet" href="<?php echo assets_css_url('bootstrap') ?>/glyphicon.css"/>
+
+            <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <?php } ?>
         <link rel="stylesheet" href="<?php echo assets_css_url() ?>/main.css"/>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
         <!--[if lte IE 8]>
         <script src="<?php echo assets_css_url('horizons'); ?>/css/ie/html5shiv.js"></script>
-
         <![endif]-->
-        <script src="<?php echo assets_js_url('horizons'); ?>/jquery.min.js"></script>
-        <script src="<?php echo assets_js_url('horizons'); ?>/jquery.dropotron.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- <script src="<?php echo assets_js_url('horizons'); ?>/jquery.dropotron.min.js"></script>
         <script src="<?php echo assets_js_url('horizons'); ?>/skel.min.js"></script>
         <script src="<?php echo assets_js_url('horizons'); ?>/skel-layers.min.js"></script>
-        <script src="<?php echo assets_js_url('horizons'); ?>/init.js"></script>
-        <noscript>
-            <link rel="stylesheet" href="<?php echo assets_css_url('horizons'); ?>skel.css"/>
-            <link rel="stylesheet" href="<?php echo assets_css_url('horizons'); ?>style.css"/>
-        </noscript>
+        <script src="<?php echo assets_js_url('horizons'); ?>/init.js"></script> -->
+        <link rel="stylesheet" href="<?php echo assets_css_url('horizons'); ?>/skel.css"/>
+        <link rel="stylesheet" href="<?php echo assets_css_url('horizons'); ?>/style.css"/>
         <!--[if lte IE 8]>
         <link rel="stylesheet" href="<?php echo assets_css_url('horizons'); ?>/ie/v8.css"/>
         <![endif]-->
@@ -68,8 +66,6 @@
                         <h3>December 7<sup>th</sup>, 2015</h3>
 
                         <h3>
-                            <!--<iframe width="350" height="180" src="https://w2.countingdownto.com/1200915"
-                                    frameborder="0"></iframe>-->
 
                         </h3>
                     </header>
