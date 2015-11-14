@@ -12,24 +12,7 @@
                 <div class="col-md-3">&nbsp;</div>
             </div>
         </header>
-        <div class="row no-collapse-1">
-            <section class="4u">
-                <a href="#" class="image feature"><img src="assets/images/horizons/pic02.jpg" alt=""></a>
-
-                <p>Nam in massa. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat.</p>
-            </section>
-            <section class="4u">
-                <a href="#" class="image feature"><img src="assets/images/horizons/pic03.jpg" alt=""></a>
-
-                <p>Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis. Donec
-                    magna.</p>
-            </section>
-            <section class="4u">
-                <a href="#" class="image feature"><img src="assets/images/horizons/pic04.jpg" alt=""></a>
-
-                <p>Curabitur sem urna, consequat vel, suscipit convallis sem leo, mattis placerat, nulla. Sed ac
-                    leo.</p>
-            </section>
+        <div class="row">
 
         </div>
     </section>
@@ -39,49 +22,38 @@
 <div class="wrapper style2">
     <section class="container">
         <header class="major">
-            <h2>Bride&apos;s Story</h2>
-            <span class="byline">Sakshi Agarwal</span>
+            <h2>When <span style="color: #ff0000;">&amp;</span> Where</h2>
         </header>
         <div class="row">
-
-            <!-- Content -->
-            <div class="6u">
-                <section>
-                    <ul class="style">
-                        <li>
-                            <span class="fa fa-wrench"></span>
-
-                            <h3>Integer ultrices</h3>
-                            <span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim.</span>
-                        </li>
-                        <li>
-                            <span class="fa fa-cloud"></span>
-
-                            <h3>Aliquam luctus</h3>
-                            <span>Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span>
-                        </li>
-                    </ul>
-                </section>
+            <div class=" col-xs-12 col-md-4 col-sm-12 col-lg-4">
+                <h2><i class="fa fa-bell fa-1x"></i> Ladies Sangeet</h2>
+                <h4>Sunday December 06, 2015</h4>
             </div>
-            <div class="6u">
-                <section>
-                    <ul class="style">
-                        <li>
-                            <span class="fa fa-cogs"></span>
-
-                            <h3>Integer ultrices</h3>
-                            <span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim.</span>
-                        </li>
-                        <li>
-                            <span class="fa fa-leaf"></span>
-
-                            <h3>Aliquam luctus</h3>
-                            <span>Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span>
-                        </li>
-                    </ul>
-                </section>
+            <div class="col-xs-12 col-sm-12 col-lg-2 col-md-2">
+                &nbsp;
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 border-map">
+                <iframe class="border-map" width="100%" frameborder="0" style="border:0"
+                        src="https://www.google.com/maps/embed/v1/place?q=Hotel%20Laxmi%20Villas%2C%20Narayan%20Singh%20Circle%2C%20Jaipur&key=AIzaSyBxyqIPaqi9pCu6owQ2Av8tRld82rcZp2A"
+                        allowfullscreen></iframe>
             </div>
 
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                &nbsp;
+            </div>
+
+            <div class=" col-xs-12 col-md-4 col-sm-12 col-lg-4">
+                <h2><i class="fa fa-bell fa-1x"></i> Marriage</h2>
+                <h4>Monday December 07, 2015</h4>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-lg-2 col-md-2">
+                &nbsp;
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 border-map">
+                <iframe width="100%" frameborder="0" style="border:0"
+                        src="https://www.google.com/maps/embed/v1/place?q=EP%20Entertainment%20Pradise%2C%20Jaipur%2C%20Rajasthan%2C%20India&key=AIzaSyBxyqIPaqi9pCu6owQ2Av8tRld82rcZp2A"
+                        allowfullscreen></iframe>
+            </div>
         </div>
     </section>
     <div class="image-arrows">&nbsp;</div>
@@ -98,85 +70,85 @@
             <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
                 <a href="#" class="image feature">
                     <img class="left photo-galary-small-img"
-                             src="<?php echo assets_url('images/photo-galery'); ?>/pic01.jpg"
-                             alt="">
+                         src="<?php echo assets_url('images/photo-galery'); ?>/pic01.jpg"
+                         alt="">
                 </a>
             </div>
             <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
                 <a href="#" class="image feature">
                     <img class="photo-galary-small-img"
-                             src="<?php echo assets_url('images/photo-galery'); ?>/pic02.jpg"
-                             alt="">
+                         src="<?php echo assets_url('images/photo-galery'); ?>/pic02.jpg"
+                         alt="">
                 </a>
             </div>
             <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
                 <a href="#" class="image feature">
                     <img class="photo-galary-small-img"
-                             src="<?php echo assets_url('images/photo-galery'); ?>//pic03.jpg"
-                             alt="">
+                         src="<?php echo assets_url('images/photo-galery'); ?>//pic03.jpg"
+                         alt="">
                 </a>
             </div>
             <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
                 <a href="#" class="image feature">
                     <img class="photo-galary-small-img left"
-                             src="<?php echo assets_url('images/photo-galery'); ?>/pic04.jpg"
-                             alt="">
+                         src="<?php echo assets_url('images/photo-galery'); ?>/pic04.jpg"
+                         alt="">
                 </a>
             </div>
             <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
                 <a href="#" class="image feature">
                     <img class="photo-galary-small-img"
-                             src="<?php echo assets_url('images/photo-galery'); ?>/pic05.jpg"
-                             alt="">
+                         src="<?php echo assets_url('images/photo-galery'); ?>/pic05.jpg"
+                         alt="">
                 </a>
             </div>
             <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
                 <a href="#" class="image feature">
                     <img class="photo-galary-small-img"
-                             src="<?php echo assets_url('images/photo-galery'); ?>/pic06.jpg"
-                             alt="">
+                         src="<?php echo assets_url('images/photo-galery'); ?>/pic06.jpg"
+                         alt="">
                 </a>
             </div>
             <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
                 <a href="#" class="image feature">
                     <img class="photo-galary-small-img left"
-                             src="<?php echo assets_url('images/photo-galery'); ?>/pic07.jpg"
-                             alt="">
+                         src="<?php echo assets_url('images/photo-galery'); ?>/pic07.jpg"
+                         alt="">
                 </a>
             </div>
             <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
                 <a href="#" class="image feature">
                     <img class="photo-galary-small-img"
-                             src="<?php echo assets_url('images/photo-galery'); ?>/pic08.jpg"
-                             alt="">
+                         src="<?php echo assets_url('images/photo-galery'); ?>/pic08.jpg"
+                         alt="">
                 </a>
             </div>
             <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
                 <a href="#" class="image feature">
                     <img class="photo-galary-small-img"
-                             src="<?php echo assets_url('images/photo-galery'); ?>/pic09.jpg"
-                             alt="">
+                         src="<?php echo assets_url('images/photo-galery'); ?>/pic09.jpg"
+                         alt="">
                 </a>
             </div>
             <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
                 <a href="#" class="image feature">
                     <img class="photo-galary-small-img"
-                             src="<?php echo assets_url('images/photo-galery'); ?>/pic09.jpg"
-                             alt="">
+                         src="<?php echo assets_url('images/photo-galery'); ?>/pic09.jpg"
+                         alt="">
                 </a>
             </div>
             <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
                 <a href="#" class="image feature">
                     <img class="photo-galary-small-img"
-                             src="<?php echo assets_url('images/photo-galery'); ?>/pic09.jpg"
-                             alt="">
+                         src="<?php echo assets_url('images/photo-galery'); ?>/pic09.jpg"
+                         alt="">
                 </a>
             </div>
             <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
                 <a href="#" class="image feature">
                     <img class="photo-galary-small-img"
-                             src="<?php echo assets_url('images/photo-galery'); ?>/pic09.jpg"
-                             alt="">
+                         src="<?php echo assets_url('images/photo-galery'); ?>/pic09.jpg"
+                         alt="">
                 </a>
             </div>
         </div>

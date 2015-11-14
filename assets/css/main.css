@@ -137,6 +137,7 @@ header.top-header h1{
 
 .wrapper.style2{
     background: #333333;
+    color: #ffffff;
 }
 
 .wrapper header{
@@ -145,6 +146,12 @@ header.top-header h1{
 
 .wrapper header.major{
     padding-top: 10vh;
+}
+
+.border-map{
+    border: solid 1vw #ffffff;
+    border-radius: 2vw;
+    padding: 0;
 }
 
 /******************************************************************************************************/
