@@ -136,97 +136,41 @@
     <div class="image-arrows">&nbsp;</div>
 </div>
 
+<?php $gal_images = array('pic01.jpg',
+    'pic02.jpg',
+    'pic03.jpg',
+    'pic04.jpg',
+    'pic05.jpg',
+    'pic06.jpg',
+    'pic07.jpg',
+    'pic08.jpg',
+    'pic09.jpg',
+    'pic10.jpg',
+    'pic11.jpg',
+    'pic12.jpg'); ?>
+
 <!-- Featured -->
 <div class="wrapper style1">
     <div id="gallery" class="container">
         <header class="major">
             <h2 class="animated" data-animation="slideInLeft" data-animation-delay="150">Gallery</h2>
         </header>
-        <div class="row">
-            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
-                <a href="#" class="image feature">
-                    <img class="left photo-galary-small-img"
-                         src="<?php echo assets_url('images/photo-galery'); ?>/pic01.jpg"
-                         alt="">
+        <div class="row my-gallery">
+            <?php
+            foreach ($gal_images as $gal_img) {
+                $url = assets_url('images/photo-galery');
+                $img_url = "{$url}/{$gal_img}";
+                ?>
+                <a href="<?php echo $img_url; ?>">
+                    <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
+                        <img class="left photo-galary-small-img"
+                             src="<?php echo $img_url; ?>"
+                             alt="">
+                    </div>
                 </a>
-            </div>
-            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
-                <a href="#" class="image feature">
-                    <img class="photo-galary-small-img"
-                         src="<?php echo assets_url('images/photo-galery'); ?>/pic02.jpg"
-                         alt="">
-                </a>
-            </div>
-            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
-                <a href="#" class="image feature">
-                    <img class="photo-galary-small-img"
-                         src="<?php echo assets_url('images/photo-galery'); ?>//pic03.jpg"
-                         alt="">
-                </a>
-            </div>
-            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
-                <a href="#" class="image feature">
-                    <img class="photo-galary-small-img left"
-                         src="<?php echo assets_url('images/photo-galery'); ?>/pic04.jpg"
-                         alt="">
-                </a>
-            </div>
-            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
-                <a href="#" class="image feature">
-                    <img class="photo-galary-small-img"
-                         src="<?php echo assets_url('images/photo-galery'); ?>/pic05.jpg"
-                         alt="">
-                </a>
-            </div>
-            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
-                <a href="#" class="image feature">
-                    <img class="photo-galary-small-img"
-                         src="<?php echo assets_url('images/photo-galery'); ?>/pic06.jpg"
-                         alt="">
-                </a>
-            </div>
-            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
-                <a href="#" class="image feature">
-                    <img class="photo-galary-small-img left"
-                         src="<?php echo assets_url('images/photo-galery'); ?>/pic07.jpg"
-                         alt="">
-                </a>
-            </div>
-            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
-                <a href="#" class="image feature">
-                    <img class="photo-galary-small-img"
-                         src="<?php echo assets_url('images/photo-galery'); ?>/pic08.jpg"
-                         alt="">
-                </a>
-            </div>
-            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
-                <a href="#" class="image feature">
-                    <img class="photo-galary-small-img"
-                         src="<?php echo assets_url('images/photo-galery'); ?>/pic09.jpg"
-                         alt="">
-                </a>
-            </div>
-            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
-                <a href="#" class="image feature">
-                    <img class="photo-galary-small-img"
-                         src="<?php echo assets_url('images/photo-galery'); ?>/pic09.jpg"
-                         alt="">
-                </a>
-            </div>
-            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
-                <a href="#" class="image feature">
-                    <img class="photo-galary-small-img"
-                         src="<?php echo assets_url('images/photo-galery'); ?>/pic09.jpg"
-                         alt="">
-                </a>
-            </div>
-            <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 gallery-img-container">
-                <a href="#" class="image feature">
-                    <img class="photo-galary-small-img"
-                         src="<?php echo assets_url('images/photo-galery'); ?>/pic09.jpg"
-                         alt="">
-                </a>
-            </div>
+                <?php
+            }
+            ?>
         </div>
         </section>
     </div>
