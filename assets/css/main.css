@@ -164,6 +164,10 @@ header.top-header h1 {
     margin: 1px auto;
 }
 
+.bride_groom_div a{
+    display: block;
+}
+
 .bride_groom_div{
     vertical-align: middle;
     padding: 30px 0px;

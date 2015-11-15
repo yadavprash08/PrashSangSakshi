@@ -7,7 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * Time: 5:36 PM
  */
 
-$arr_stylesheets = array('main.css', 'animate.css');
+$arr_stylesheets = array('main.css', 'animate.css', 'magnific-popup.css');
 if (isset($header_include_css)) {
     array_push($arr_stylesheets, $header_include_css);
 }
