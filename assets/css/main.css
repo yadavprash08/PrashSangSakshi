@@ -87,20 +87,20 @@ section.special, article.special {
     My Own CSS Code
 ******************************************************************************************************/
 section.header {
-    background: #A80858 url("http://sakshiprashant.com/assets/images/horizons/pic01.jpg") no-repeat center;
+    background: #A80858 url("http://sakshiprashant.com/assets/images/horizons/bg_pic01_medium.jpg") no-repeat center;
     background-attachment: fixed;
     vertical-align: baseline;
 }
 
 @media (max-width: 768px) {
     section.header {
-        background: #A80858 url("http://sakshiprashant.com/assets/images/horizons/pic01_small.jpg") no-repeat center;
+        background: #A80858 url("http://sakshiprashant.com/assets/images/horizons/bg_pic01_small.jpg") no-repeat center;
     }
 }
 
 @media (min-width: 1200px) {
     section.header {
-        background: #A80858 url("http://sakshiprashant.com/assets/images/horizons/pic01_large.jpg") no-repeat center;
+        background: #A80858 url("http://sakshiprashant.com/assets/images/horizons/bg_pic01_large.jpg") no-repeat center;
     }
 }
 
