@@ -36,4 +36,16 @@ $(function () {
             verticalFit: true
         }
     });
+
+    $('section.header').vegas({
+        slides:[
+            {src:'http://sakshiprashant.com/assets/images/photo-galery/pic01.jpg'},
+            {src:'http://sakshiprashant.com/assets/images/photo-galery/pic02.jpg'},
+            {src:'http://sakshiprashant.com/assets/images/photo-galery/pic11.jpg'},
+            {src:'http://sakshiprashant.com/assets/images/photo-galery/pic12.jpg'}
+        ],
+        preloadImage:true,
+        delay:5000,
+        transitionDuration:5000
+    });
 });

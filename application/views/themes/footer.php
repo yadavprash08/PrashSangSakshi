@@ -6,7 +6,7 @@
  * Time: 12:38 PM
  */
 
-$arr_javascripts = array('jquery.magnific-popup.min.js','appear.js', 'main.js');
+$arr_javascripts = array('jquery.magnific-popup.min.js','appear.js', 'vegas.min.js' ,'main.js');
 if (isset($header_include_js)) {
     array_push($arr_javascripts, $header_include_js);
 }
