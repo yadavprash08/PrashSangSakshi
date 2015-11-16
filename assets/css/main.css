@@ -104,6 +104,17 @@ section.header {
     }
 }
 
+.page-parallax-bg{
+    background: #A80858 url("http://sakshiprashant.com/assets/images/horizons/bg_pic01_large.jpg") no-repeat center;
+    background-size: cover;
+background-attachment: fixed;
+}
+
+.page-parallax-bg.container{
+    background: #A80858;
+    opacity: .5;
+}
+
 .image-arrows {
     vertical-align: bottom;
     width: 100%;
@@ -145,6 +156,8 @@ header.top-header h1 {
 .wrapper.style1 {
     background: #ffffff;
     color: #A80858;
+    opacity: 0.95;
+    -moz-opacity: 0.95;
 }
 
 .wrapper.style2 {
