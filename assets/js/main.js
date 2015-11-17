@@ -38,14 +38,29 @@ $(function () {
     });
 
     $('section.header').vegas({
-        slides:[
-            {src:'http://sakshiprashant.com/assets/images/photo-galery/pic01.jpg'},
-            {src:'http://sakshiprashant.com/assets/images/photo-galery/pic02.jpg'},
-            {src:'http://sakshiprashant.com/assets/images/photo-galery/pic11.jpg'},
-            {src:'http://sakshiprashant.com/assets/images/photo-galery/pic12.jpg'}
+        slides: [
+            {src: 'http://sakshiprashant.com/assets/images/photo-galery/pic01.jpg'},
+            {src: 'http://sakshiprashant.com/assets/images/photo-galery/pic02.jpg'},
+            {src: 'http://sakshiprashant.com/assets/images/photo-galery/pic11.jpg'},
+            {src: 'http://sakshiprashant.com/assets/images/photo-galery/pic12.jpg'}
         ],
-        preloadImage:true,
-        delay:5000,
-        transitionDuration:5000
+        preloadImage: true,
+        delay: 5000,
+        transitionDuration: 5000
     });
+
+});
+
+$(document).ready(function () {
+    var currentDate = new Date();
+    var endDate = Date.parse("December 07, 2015");
+    var diff = (endDate - currentDate.getTime()) / 1000;
+
+    var clock = $("#getting-started").FlipClock(diff,
+        {
+            clockFace: 'DailyCounter',
+            countdown: true,
+            showSeconds: false
+        });
+    clock.start();
 });

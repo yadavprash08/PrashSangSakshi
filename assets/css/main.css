@@ -134,6 +134,11 @@ header.top-header {
     min-height: 95vh;
 }
 
+.center-countdown-row{
+    max-width: 500px;
+    margin: 30vh auto;
+}
+
 header.top-header h1 {
     padding-top: 30vh;
     margin-top: 0px;

@@ -7,7 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * Time: 5:36 PM
  */
 
-$arr_stylesheets = array('main.css', 'animate.css', 'magnific-popup.css', 'vegas.min.css');
+$arr_stylesheets = array('main.css', 'animate.css', 'magnific-popup.css', 'vegas.min.css', 'flipclock.css');
 if (isset($header_include_css)) {
     array_push($arr_stylesheets, $header_include_css);
 }
@@ -38,7 +38,11 @@ if (isset($header_include_css)) {
 
 <section class="header">
     <header class="top-header">
-        <h1><i class="fa fa-camera fa-2x"></i>&nbsp;</h1>
+        <div class="text-center">
+            <div class="center-countdown-row">
+                <div id="getting-started" class="center-countdown"></div>
+            </div>
+        </div>
     </header>
     <div class="image-arrows">&nbsp;</div>
 </section>
