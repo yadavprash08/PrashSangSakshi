@@ -7,7 +7,7 @@ body {
 
 body, input, select, textarea {
     color: #555555;
-    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Raleway', sans-serif;*/
     font-size: 13pt;
     font-weight: 300;
     line-height: 1.75em;
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     line-height: 1.75em;
     margin-bottom: 1em;
-    font-family: cursive;
+    /*font-family: cursive;*/
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -135,8 +135,14 @@ header.top-header {
 }
 
 .center-countdown-row{
-    max-width: 500px;
+    width: 700px;
     margin: 30vh auto;
+}
+
+.flip-clock-label{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2em;
+    color: #FFFFFF;
 }
 
 header.top-header h1 {

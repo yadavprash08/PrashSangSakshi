@@ -55,12 +55,14 @@ $(document).ready(function () {
     var currentDate = new Date();
     var endDate = Date.parse("December 07, 2015");
     var diff = (endDate - currentDate.getTime()) / 1000;
+    if(diff < 0){
+        diff = 0;
+    }
 
     var clock = $("#getting-started").FlipClock(diff,
         {
             clockFace: 'DailyCounter',
-            countdown: true,
-            showSeconds: false
+            countdown: true
         });
     clock.start();
 });
