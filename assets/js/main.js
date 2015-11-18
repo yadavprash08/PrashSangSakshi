@@ -45,8 +45,8 @@ $(function () {
             {src: 'http://sakshiprashant.com/assets/images/photo-galery/pic12.jpg'}
         ],
         preloadImage: true,
-        delay: 5000,
-        transitionDuration: 5000
+        delay: 10000,
+        transitionDuration: 2000
     });
 
     FB.init({
