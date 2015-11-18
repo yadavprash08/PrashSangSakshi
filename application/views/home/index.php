@@ -184,7 +184,32 @@
     <div class="image-arrows2">&nbsp;</div>
 
     <div class="wrapper style2">
+        <div id="fb-root"></div>
+        <script>(function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1040614595951557";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+        <div class="row">
 
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <h2>Prashant</h2>
+            </div>
+
+            <div class=" col-md-6 col-sm-12 col-xs-12">
+                <h2>Sakshi</h2>
+            </div>
+
+            <div class="fb-comments col-md-6 col-sm-12 col-xs-12" data-href="https://www.facebook.com/yadavprash08#"
+                 data-width="500px"
+                 data-numposts="10"></div>
+            <div class="fb-comments col-md-6 col-sm-12 col-xs-12"
+                 data-href="https://www.facebook.com/sakshi27agarwal?fref=ts#" data-width="500px"
+                 data-numposts="10"></div>
+        </div>
         <div class="image-arrows">&nbsp;</div>
     </div>
 
