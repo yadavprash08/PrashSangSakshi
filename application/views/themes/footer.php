@@ -13,7 +13,7 @@ if (isset($header_include_js)) {
 ?>
 
 <div class="wrapper style1">
-    <div class="image-arrows2">&nbsp;</div>
+    <!--<div class="image-arrows2">&nbsp;</div>-->
     <!-- Footer -->
     <div id="footer">
         <div class="container">

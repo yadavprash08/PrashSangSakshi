@@ -38,26 +38,17 @@
                     </div>
                 </div>
 
-                <div class="text-center">
-                    <p>
-                        At first I thought we would just be friends.</p>
-
+                <div class="text-center poem">
+                    <p>At first I thought we would just be friends.</p>
                     <p>A little did we know, our friendship would bend</p>
-
                     <p>To a love that’s so big for the world to see</p>
-
                     <p>that you and me are meant to be.</p>
-
                     <p>&nbsp;</p>
-
                     <p>Sun or snow, rain or shine</p>
-
                     <p>forever, forever you will be mine</p>
-
                     <p>Mine for me, mine to be</p>
-
                     <p>Mine for all eternity.</p>
-                    </p>
+                    <p>&nbsp;</p>
                 </div>
             </section>
         </section>
@@ -181,6 +172,11 @@
             <header class="major">
                 <h2 class="animated section-header" data-animation="slideInLeft" data-animation-delay="150">Gallery</h2>
             </header>
+            <div class="row poem">
+                <p>&nbsp;</p>
+                <p>Every love story is beautiful but ours is my favorite.</p>
+                <p>&nbsp;</p>
+            </div>
             <div class="row my-gallery">
                 <?php
                 foreach ($gal_images as $gal_img) {
