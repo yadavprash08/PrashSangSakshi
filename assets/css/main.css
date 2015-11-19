@@ -92,15 +92,41 @@ section.header {
     vertical-align: baseline;
 }
 
+.section-header{
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section-header.site-header{
+    font-size: 81px;
+}
+
 @media (max-width: 768px) {
     section.header {
         background: #A80858 url("http://sakshiprashant.com/assets/images/horizons/bg_pic01_small.jpg") no-repeat center;
+    }
+
+    .section-header{
+        font-size: 40px;
+    }
+
+    .section-header.site-header{
+        font-size: 54px;
     }
 }
 
 @media (min-width: 1200px) {
     section.header {
         background: #A80858 url("http://sakshiprashant.com/assets/images/horizons/bg_pic01_large.jpg") no-repeat center;
+    }
+
+    .section-header{
+        font-size: 72px;
+    }
+
+    .section-header.site-header{
+        font-size: 81px;
     }
 }
 
@@ -118,13 +144,14 @@ section.header {
 .image-arrows {
     vertical-align: bottom;
     width: 100%;
-    background: url("http://www.kinnerysiddharth.com/img/arrow1.png") repeat-x bottom;
+    /*background: url("http://www.kinnerysiddharth.com/img/arrow1.png") repeat-x bottom;*/
 }
 
 .image-arrows2 {
     vertical-align: top;
     width: 100%;
-    background: #A80858 url("http://www.kinnerysiddharth.com/img/arrow.png") repeat-x top;
+    background: #A80858;
+    /*background: #A80858 url("http://www.kinnerysiddharth.com/img/arrow.png") repeat-x top;*/
 }
 
 header.top-header {
@@ -136,7 +163,7 @@ header.top-header {
 
 .center-countdown-row{
     width: 700px;
-    margin: 70vh auto;
+    margin: 30vh auto 0px auto;
 }
 
 .flip-clock-label{
@@ -190,12 +217,14 @@ header.top-header h1 {
     padding: 0;
 }
 
+
+
 .bride_groom {
-    width: 180px;
-    height: 180px;
+    width: 300px;
+    height: 300px;
     background: url("http://sakshiprashant.com/assets/images/bride_groom.jpg");
     border: #A80858 solid 10px;
-    border-radius: 90px;
+    border-radius: 150px;
     text-align: center;
     margin: 1px auto;
 }

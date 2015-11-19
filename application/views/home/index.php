@@ -4,13 +4,8 @@
         <section class="container">
             <header class="major">
                 <div class="row">
-                    <div class="col-md-3">&nbsp;</div>
-                    <div class="col-md-1"><i class="fa fa-amazon fa-4x"></i></div>
-                    <div class="col-md-4"><h2>Groom &amp; Bride</h2>
-                        &nbsp;
-                    </div>
-                    <div class="col-md-1"><i class="fa fa-windows fa-4x"></i></div>
-                    <div class="col-md-3">&nbsp;</div>
+                    <h2 class="section-header col-mid-12"><i class="fa fa-amazon"></i> Groom &amp; Bride <i
+                            class="fa fa-windows"></i></h2>
                 </div>
             </header>
             <section>
@@ -43,8 +38,27 @@
                     </div>
                 </div>
 
-                <h2></h2>
+                <div class="text-center">
+                    <p>
+                        At first I thought we would just be friends.</p>
 
+                    <p>A little did we know, our friendship would bend</p>
+
+                    <p>To a love that’s so big for the world to see</p>
+
+                    <p>that you and me are meant to be.</p>
+
+                    <p>&nbsp;</p>
+
+                    <p>Sun or snow, rain or shine</p>
+
+                    <p>forever, forever you will be mine</p>
+
+                    <p>Mine for me, mine to be</p>
+
+                    <p>Mine for all eternity.</p>
+                    </p>
+                </div>
             </section>
         </section>
     </div>
@@ -56,15 +70,18 @@
         <section class="container">
 
             <header>
-                <h2 class="animated" data-animation="fadeIn" data-animation-delay="100"><span>When</span><span
+                <h2 class="animated section-header" data-animation="fadeIn" data-animation-delay="100"><span>When</span><span
                         style="color: #ff0000;">&nbsp;&amp;&nbsp;</span><span class="animate-plus"
                                                                               data-animations="bounceIn"
                                                                               data-delay="100">Where</span></h2>
             </header>
             <div class="row">
                 <div class=" col-xs-12 col-md-4 col-sm-12 col-lg-4">
-                    <h2><i class="fa fa-bell fa-1x"></i> Ladies Sangeet</h2>
+                    <h2><i class="fa fa-bell fa-1x"></i> Engagement</h2>
                     <h4>Sunday December 06, 2015</h4>
+                    <h5>05:00 PM onwards</h5>
+
+                    <h3>Hotel Laxmi Villas</h3>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-lg-2 col-md-2">
                     &nbsp;
@@ -80,8 +97,11 @@
                 </div>
 
                 <div class=" col-xs-12 col-md-4 col-sm-12 col-lg-4">
-                    <h2><i class="fa fa-bell fa-1x"></i> Marriage</h2>
+                    <h2><i class="fa fa-bell fa-1x"></i>Wedding</h2>
                     <h4>Monday December 07, 2015</h4>
+                    <h5>08:00 PM onwards</h5>
+
+                    <h3>Entertainment Paradise</h3>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-lg-2 col-md-2">
                     &nbsp;
@@ -103,7 +123,7 @@
     <div class="wrapper style1">
         <section class="container">
             <header class="major">
-                <h2 class="h2-center">Family</h2>
+                <h2 class="h2-center section-header">Family</h2>
             </header>
 
             <div class="row family-tree">
@@ -137,7 +157,7 @@
     <div class="image-arrows2">&nbsp;</div>
     <div class="wrapper style2">
         <section class="container">
-
+            <h2 class="text-center section-header">Wedding Invitation</h2>
         </section>
         <div class="image-arrows">&nbsp;</div>
     </div>
@@ -159,7 +179,7 @@
     <div class="wrapper style1">
         <div id="gallery" class="container">
             <header class="major">
-                <h2 class="animated" data-animation="slideInLeft" data-animation-delay="150">Gallery</h2>
+                <h2 class="animated section-header" data-animation="slideInLeft" data-animation-delay="150">Gallery</h2>
             </header>
             <div class="row my-gallery">
                 <?php
@@ -193,22 +213,13 @@
                 js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1040614595951557";
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));</script>
-        <div class="row">
-
-            <div class="col-md-6 col-sm-12 col-xs-12">
-                <h2>Prashant</h2>
+        <div class="container">
+            <h2 class="section-header"> Wishes</h2>
+            <div class="row">
+                <div class="fb-comments" data-href="https://www.facebook.com/yadavprash08#"
+                     data-width="100%"
+                     data-numposts="10"></div>
             </div>
-
-            <div class=" col-md-6 col-sm-12 col-xs-12">
-                <h2>Sakshi</h2>
-            </div>
-
-            <div class="fb-comments col-md-6 col-sm-12 col-xs-12" data-href="https://www.facebook.com/yadavprash08#"
-                 data-width="500px"
-                 data-numposts="10"></div>
-            <div class="fb-comments col-md-6 col-sm-12 col-xs-12"
-                 data-href="https://www.facebook.com/sakshi27agarwal?fref=ts#" data-width="500px"
-                 data-numposts="10"></div>
         </div>
         <div class="image-arrows">&nbsp;</div>
     </div>

@@ -38,7 +38,7 @@ if (isset($header_include_css)) {
 
 <section class="header">
     <header class="top-header">
-
+        <h1 class="section-header site-header">Prashant weds Sakshi</h1>
         <div class="text-center">
             <div class="center-countdown-row">
                 <div id="getting-started" class="center-countdown"></div>
