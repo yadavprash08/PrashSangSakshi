@@ -152,8 +152,8 @@ section.header {
     vertical-align: top;
     width: 100%;
     background: #F44482 /*A80858*/;
-    opacity: 0.9;
-    -moz-opacity: 0.9;
+    opacity: 0.6;
+    -moz-opacity: 0.6;
     /*background: #F44482 url("http://www.kinnerysiddharth.com/img/arrow.png") repeat-x top;*/
 }
 
@@ -209,8 +209,8 @@ header.top-header h1 {
 .wrapper.style2 {
     background: #F44482 /*A80858*/;
     color: #FFFFFF;
-    opacity: 0.9;
-    -moz-opacity: 0.9;
+    opacity: 0.6;
+    -moz-opacity: 0.6;
 }
 
 .wrapper header {
