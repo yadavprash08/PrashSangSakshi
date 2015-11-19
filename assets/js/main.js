@@ -48,14 +48,6 @@ $(function () {
         delay: 10000,
         transitionDuration: 2000
     });
-
-    FB.init({
-        appId: '1040614595951557',
-        status: true,
-        xfbml: true,
-        version: 'v2.4' // or v2.0, v2.1, v2.2, v2.3
-    });
-
 });
 
 $(document).ready(function () {
