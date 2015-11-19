@@ -6,7 +6,7 @@
  * Time: 12:38 PM
  */
 
-$arr_javascripts = array('jquery.magnific-popup.min.js','appear.js', 'vegas.min.js', 'flipclock.min.js' ,'main.js');
+$arr_javascripts = array('jquery.magnific-popup.min.js', 'vegas.min.js', 'flipclock.min.js', 'smooth-scroll.js','jquery.waypoints.min.js','modernizr.js', 'main.js');
 if (isset($header_include_js)) {
     array_push($arr_javascripts, $header_include_js);
 }
@@ -30,7 +30,7 @@ if (isset($header_include_js)) {
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/1.3.1/lazysizes.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/1.3.1/lazysizes.min.js" async=""></script>
 
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.appear/0.3.3/jquery.appear.min.js"></script>-->
 <?php

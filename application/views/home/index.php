@@ -17,7 +17,8 @@
                     <div class="<?php echo $_col_style_class_side; ?>">&nbsp;</div>
                     <div class="<?php echo $_col_style_class_img; ?>">
                         <a class="bride_groom_a" href="<?php echo assets_url('images/bride_groom.jpg'); ?>">
-                            <div class="animated bride_groom groom" style="margin-left: 0px;" data-animation="flipInY"
+                            <div class="animate bride_groom groom" style="margin-left: 0px;"
+                                 data-animation="flipInY"
                                  data-animation-delay="100">
                                 &nbsp;</div>
                         </a>
@@ -27,7 +28,7 @@
                     </div>
                     <div class="<?php echo $_col_style_class_img; ?>">
                         <a class="bride_groom_a" href="<?php echo assets_url('images/bride_groom.jpg'); ?>">
-                            <div class="animated bride_groom bride" style="margin-right: 0px;" data-animation="flipInY"
+                            <div class="animate bride_groom bride" style="margin-right: 0px;" data-animation="flipInY"
                                  data-animation-delay="100">
                                 &nbsp;</div>
                         </a>
@@ -40,14 +41,23 @@
 
                 <div class="text-center poem">
                     <p>At first I thought we would just be friends.</p>
+
                     <p>A little did we know, our friendship would bend</p>
+
                     <p>To a love that’s so big for the world to see</p>
+
                     <p>that you and me are meant to be.</p>
+
                     <p>&nbsp;</p>
+
                     <p>Sun or snow, rain or shine</p>
+
                     <p>forever, forever you will be mine</p>
+
                     <p>Mine for me, mine to be</p>
+
                     <p>Mine for all eternity.</p>
+
                     <p>&nbsp;</p>
                 </div>
             </section>
@@ -61,7 +71,7 @@
         <section class="container">
 
             <header>
-                <h2 class="animated section-header" data-animation="fadeIn" data-animation-delay="100"><span>When</span><span
+                <h2 class="animate section-header" data-animation="fadeIn" data-animation-delay="100"><span>When</span><span
                         style="color: #ff0000;">&nbsp;&amp;&nbsp;</span><span class="animate-plus"
                                                                               data-animations="bounceIn"
                                                                               data-delay="100">Where</span></h2>
@@ -77,7 +87,7 @@
                 <div class="col-xs-12 col-sm-12 col-lg-2 col-md-2">
                     &nbsp;
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 border-map animated" data-animation="zoomIn">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 border-map animate" data-animation="zoomIn">
                     <iframe class="border-map" width="100%" frameborder="0" style="border:0"
                             src="https://www.google.com/maps/embed/v1/place?q=Hotel%20Laxmi%20Villas%2C%20Narayan%20Singh%20Circle%2C%20Jaipur&key=AIzaSyBxyqIPaqi9pCu6owQ2Av8tRld82rcZp2A"
                             allowfullscreen></iframe>
@@ -97,7 +107,7 @@
                 <div class="col-xs-12 col-sm-12 col-lg-2 col-md-2">
                     &nbsp;
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 border-map fadeIn animated"
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 border-map fadeIn animate"
                      data-animation-delay="500" data-animation="zoomIn">
                     <iframe width="100%" frameborder="0" style="border:0"
                             src="https://www.google.com/maps/embed/v1/place?q=EP%20Entertainment%20Pradise%2C%20Jaipur%2C%20Rajasthan%2C%20India&key=AIzaSyBxyqIPaqi9pCu6owQ2Av8tRld82rcZp2A"
@@ -111,6 +121,11 @@
         <div class="image-arrows">&nbsp;</div>
     </div>
 
+    <?php
+    $family_data = array('SatyaveerSingh.jpg' => 'Dr. Satyaveer Singh',
+    );
+    ?>
+
     <div class="wrapper style1">
         <section class="container">
             <header class="major">
@@ -118,30 +133,13 @@
             </header>
 
             <div class="row family-tree">
-                <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 family-intro">
-                    <img class="lazyload" src="<?php echo assets_url('images/SatyaveerSingh.jpg') ?>">
-
-                    <h3>Dr. Satyaveer Singh</h3>
-                </div>
-
-                <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 family-intro">
-                    <img class="lazyload" src="<?php echo assets_url('images/RajniDevi.jpg') ?>">
-
-                    <h3>Smt. Rajni Devi</h3>
-                </div>
-                <div class="bride-family">
+                <?php foreach ($family_data as $key => $val): ?>
                     <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 family-intro">
-                        <img class="lazyload" src="<?php echo assets_url('images/SDAgarwal.jpg') ?>">
+                        <img src="<?php echo assets_url("images/${key}") ?>" alt="<?php echo $key; ?>"/>
 
-                        <h3>Sh. S.D. Agarwal</h3>
+                        <h3><?php echo $val; ?></h3>
                     </div>
-
-                    <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 family-intro">
-                        <img class="lazyload" src="<?php echo assets_url('images/SarojAgarwal.jpg') ?>">
-
-                        <h3>Smt. Saroj Agarwal</h3>
-                    </div>
-                </div>
+                <?php endforeach; ?>
             </div>
         </section>
     </div>
@@ -170,11 +168,13 @@
     <div class="wrapper style1">
         <div id="gallery" class="container">
             <header class="major">
-                <h2 class="animated section-header" data-animation="slideInLeft" data-animation-delay="150">Gallery</h2>
+                <h2 class="animate section-header" data-animation="slideInLeft" data-animation-delay="150">Gallery</h2>
             </header>
             <div class="row poem">
                 <p>&nbsp;</p>
+
                 <p>Every love story is beautiful but ours is my favorite.</p>
+
                 <p>&nbsp;</p>
             </div>
             <div class="row my-gallery">
@@ -211,6 +211,7 @@
             }(document, 'script', 'facebook-jssdk'));</script>
         <div class="container">
             <h2 class="section-header"> Wishes</h2>
+
             <div class="row">
                 <div class="fb-comments" data-href="https://www.facebook.com/yadavprash08#"
                      data-width="100%"

@@ -7,11 +7,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * Time: 5:36 PM
  */
 
-$arr_stylesheets = array('main.css', 'animate.css', 'magnific-popup.css', 'vegas.min.css', 'flipclock.css');
+$arr_stylesheets = array('main.css', 'animate.css', 'magnific-popup.css', 'vegas.min.css', 'flipclock.css', 'pace.css');
 if (isset($header_include_css)) {
     array_push($arr_stylesheets, $header_include_css);
 }
 
+$arr_javascripts = array('pace.js');
 
 ?>
 
@@ -20,6 +21,15 @@ if (isset($header_include_css)) {
     <title>Prashant weds Sakshi</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="www.sakshiprashant.com/facivon.ico"/>
+
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.appear/0.3.3/jquery.appear.min.js"></script>-->
+    <?php
+    foreach ($arr_javascripts as $js_file) {
+        echo "\n";
+        ?>
+        <script src="<?php echo assets_js_url($js_file); ?>"></script><?php
+    }
+    ?>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
     <!-- Latest compiled and minified CSS -->

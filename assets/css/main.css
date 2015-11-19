@@ -170,6 +170,7 @@ header.top-header {
 }
 
 .poem p {
+    text-align: center;
     margin: 0 auto;
     padding: 1px auto;
     font-size: 25px;
