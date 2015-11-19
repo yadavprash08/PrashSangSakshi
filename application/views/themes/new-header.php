@@ -35,6 +35,7 @@ $arr_javascripts = array('pace.js');
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
     <link href='https://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script|Tangerine:400,700|Great+Vibes|Niconne' rel='stylesheet' type='text/css'>
     <?php
     foreach ($arr_stylesheets as $style_css) {
         echo "\n";
@@ -48,7 +49,7 @@ $arr_javascripts = array('pace.js');
 
 <section class="header">
     <header class="top-header">
-        <h1 class="section-header site-header">Prashant weds Sakshi</h1>
+        <h1 class="section-header site-header">Prashant <span style="font-size: .5em;">weds</span> Sakshi</h1>
         <div class="text-center">
             <div class="center-countdown-row">
                 <div id="getting-started" class="center-countdown"></div>

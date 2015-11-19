@@ -87,7 +87,7 @@ section.special, article.special {
     My Own CSS Code
 ******************************************************************************************************/
 section.header {
-    background: #F44482 /*A80858*/ url("http://sakshiprashant.com/assets/images/horizons/bg_pic01_medium.jpg") no-repeat center;
+    background: #F4D03F /*A80858*/ url("http://sakshiprashant.com/assets/images/horizons/bg_pic01_medium.jpg") no-repeat center;
     background-attachment: fixed;
     vertical-align: baseline;
 }
@@ -104,7 +104,7 @@ section.header {
 
 @media (max-width: 768px) {
     section.header {
-        background: #F44482 /*A80858*/ url("http://sakshiprashant.com/assets/images/horizons/bg_pic01_small.jpg") no-repeat center;
+        background: #F4D03F /*A80858*/ url("http://sakshiprashant.com/assets/images/horizons/bg_pic01_small.jpg") no-repeat center;
     }
 
     .section-header {
@@ -118,7 +118,7 @@ section.header {
 
 @media (min-width: 1200px) {
     section.header {
-        background: #F44482 /*A80858*/ url("http://sakshiprashant.com/assets/images/horizons/bg_pic01_large.jpg") no-repeat center;
+        background: #F4D03F /*A80858*/ url("http://sakshiprashant.com/assets/images/horizons/bg_pic01_large.jpg") no-repeat center;
     }
 
     .section-header {
@@ -132,13 +132,13 @@ section.header {
 
 .page-parallax-bg {
     /*A80858*/
-    background: #F44482 url("http://www.sakshiprashant.com/assets/images/paralex_bg.jpg") no-repeat center;
+    background: #F4D03F url("http://www.sakshiprashant.com/assets/images/paralex_bg.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .page-parallax-bg.container {
-    background: #F44482 /*A80858*/;
+    background: #F4D03F /*A80858*/;
     opacity: .9;
 }
 
@@ -151,10 +151,10 @@ section.header {
 .image-arrows2 {
     vertical-align: top;
     width: 100%;
-    background: #F44482 /*A80858*/;
-    opacity: 0.6;
-    -moz-opacity: 0.6;
-    /*background: #F44482 url("http://www.kinnerysiddharth.com/img/arrow.png") repeat-x top;*/
+    background: #F4D03F /*A80858*/;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    /*background: #F4D03F url("http://www.kinnerysiddharth.com/img/arrow.png") repeat-x top;*/
 }
 
 header.top-header {
@@ -166,14 +166,14 @@ header.top-header {
 
 .center-countdown-row {
     width: 700px;
-    margin: 30vh auto 0px auto;
+    margin: 1vh auto 0px auto;
 }
 
 .poem p {
+    color: #2c3e50;
     text-align: center;
-    margin: 0 auto;
-    padding: 1px auto;
-    font-size: 25px;
+    margin: 15px auto;
+    font-size: 35px;
 }
 
 .flip-clock-label {
@@ -183,8 +183,10 @@ header.top-header {
 }
 
 header.top-header h1 {
-    padding-top: 30vh;
-    margin-top: 0px;
+    padding-top: 0vh;
+    margin-top: 50vh;
+    margin-bottom: 5vh;
+    font-family: 'Kaushan Script', cursive;
 }
 
 .wrapper {
@@ -203,15 +205,37 @@ header.top-header h1 {
 
 .wrapper.style1 {
     background: #ffffff;
-    color: #F44482 /*A80858*/;
+    /*color: #F4D03F /!*A80858*!/;*/
+    color: #2c3e50;
 
 }
 
+.color-site-style{
+    color: #F4D03F;
+}
+
 .wrapper.style2 {
-    background: #F44482 /*A80858*/;
-    color: #FFFFFF;
-    opacity: 0.6;
-    -moz-opacity: 0.6;
+    background: #F4D03F /*A80858*/;
+    color: #000000;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+}
+
+.whenAndWhere h2,h3,h4,h5 {
+    margin-bottom: 5px;
+    margin-top: 2px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.whenAndWhere h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.no-opaque{
+    opacity: 1.0;
+    -moz-opacity: 1.0;
 }
 
 .wrapper header {
@@ -232,7 +256,7 @@ header.top-header h1 {
     width: 300px;
     height: 300px;
     background: url("http://sakshiprashant.com/assets/images/bride_groom.jpg");
-    border: #F44482 /*A80858*/ solid 10px;
+    border: #F4D03F /*A80858*/ solid 10px;
     border-radius: 150px;
     text-align: center;
     margin: 1px auto;
@@ -265,7 +289,7 @@ header.top-header h1 {
 /* Footer */
 
 #footer {
-    background: #F44482 /*A80858*/;
+    background: #F4D03F /*A80858*/;
     padding: 4em 0;
     color: #fff;
 }
@@ -310,7 +334,7 @@ header.top-header h1 {
 .family-tree .family-intro img {
     width: 180px;
     height: 180px;
-    border: solid #F44482 /*A80858*/ 10px;
+    border: solid #F4D03F /*A80858*/ 10px;
     border-radius: 90px;
 }
 
@@ -325,7 +349,7 @@ header.top-header h1 {
 }
 
 .gallery-img-container .photo-galary-small-img {
-    border: #F44482 /*A80858*/ solid 6px;
+    border: #F4D03F /*A80858*/ solid 6px;
     border-radius: 4px;
     width: 100%;
     background-size: cover;
@@ -355,11 +379,11 @@ header.top-header h1 {
 }
 
 .photo-galary-small-img:hover {
-    -moz-transform: scale(1.1) rotate(4deg);
-    -ms-transform: scale(1.1) rotate(4deg);
-    -o-transform: scale(1.1) rotate(4deg);
-    -webkit-transform: scale(1.1) rotate(4deg);
-    transform: scale(1.1) rotate(4deg);
+    -moz-transform: scale(1.1) rotate(1deg);
+    -ms-transform: scale(1.1) rotate(1deg);
+    -o-transform: scale(1.1) rotate(1deg);
+    -webkit-transform: scale(1.1) rotate(1deg);
+    transform: scale(1.1) rotate(1deg);
 
     -moz-transition: all 1.5s;
     -ms-transition: all 1.5s;
@@ -369,9 +393,9 @@ header.top-header h1 {
 }
 
 .photo-galary-small-img .left:hover {
-    -moz-transform: scale(1.1) rotate(-4deg);
-    -ms-transform: scale(1.1) rotate(-4deg);
-    -o-transform: scale(1.1) rotate(-4deg);
-    -webkit-transform: scale(1.1) rotate(-4deg);
-    transform: scale(1.1) rotate(-4deg);
+    -moz-transform: scale(1.1) rotate(-1deg);
+    -ms-transform: scale(1.1) rotate(-1deg);
+    -o-transform: scale(1.1) rotate(-1deg);
+    -webkit-transform: scale(1.1) rotate(-1deg);
+    transform: scale(1.1) rotate(-1deg);
 }

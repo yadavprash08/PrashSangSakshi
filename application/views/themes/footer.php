@@ -20,7 +20,7 @@ if (isset($header_include_js)) {
 
             <!-- Copyright -->
             <div class="copyright">
-                Design: &copy; Prashant Yadav &amp; Sakshi Agrawal
+                Design: &copy; Prashant &amp; Sakshi
             </div>
 
         </div>
