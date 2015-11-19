@@ -38,6 +38,7 @@ if (isset($header_include_css)) {
 
 <section class="header">
     <header class="top-header">
+
         <div class="text-center">
             <div class="center-countdown-row">
                 <div id="getting-started" class="center-countdown"></div>

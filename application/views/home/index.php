@@ -5,11 +5,11 @@
             <header class="major">
                 <div class="row">
                     <div class="col-md-3">&nbsp;</div>
-                    <div class="col-md-1"><i class="fa fa-windows fa-4x"></i></div>
-                    <div class="col-md-4"><h2>Bride &amp; Groom</h2>
-                        <!--<light>Sakshi &amp; Prashant</light>-->
-                    </div>
                     <div class="col-md-1"><i class="fa fa-amazon fa-4x"></i></div>
+                    <div class="col-md-4"><h2>Groom &amp; Bride</h2>
+                        &nbsp;
+                    </div>
+                    <div class="col-md-1"><i class="fa fa-windows fa-4x"></i></div>
                     <div class="col-md-3">&nbsp;</div>
                 </div>
             </header>
@@ -22,28 +22,28 @@
                     <div class="<?php echo $_col_style_class_side; ?>">&nbsp;</div>
                     <div class="<?php echo $_col_style_class_img; ?>">
                         <a class="bride_groom_a" href="<?php echo assets_url('images/bride_groom.jpg'); ?>">
-                            <div class="animated bride_groom bride" style="margin-right: 0px;" data-animation="flipInY"
+                            <div class="animated bride_groom groom" style="margin-left: 0px;" data-animation="flipInY"
                                  data-animation-delay="100">
                                 &nbsp;</div>
                         </a>
-                        <!--<i class="fa fa-venus fa-2x"></i>-->
                     </div>
                     <div class="<?php echo $_col_style_class_side; ?>">
                         <i class="fa fa-heart fa-5x"></i>
                     </div>
                     <div class="<?php echo $_col_style_class_img; ?>">
                         <a class="bride_groom_a" href="<?php echo assets_url('images/bride_groom.jpg'); ?>">
-                            <div class="animated bride_groom groom" style="margin-left: 0px;" data-animation="flipInY"
+                            <div class="animated bride_groom bride" style="margin-right: 0px;" data-animation="flipInY"
                                  data-animation-delay="100">
                                 &nbsp;</div>
                         </a>
-                        <!--<i class="fa fa-mars fa-2x"></i>-->
                     </div>
                     <div class="<?php echo $_col_style_class_side; ?>">&nbsp;</div>
                     <div class="col-md-12">
                         &nbsp;
                     </div>
                 </div>
+
+                <h2></h2>
 
             </section>
         </section>
