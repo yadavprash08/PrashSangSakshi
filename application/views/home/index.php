@@ -307,7 +307,7 @@
                         Sanganeer, Jaipur<br>
                         <abbr title="Phone"><i class="fa fa-mobile fa-2x"></i></abbr> (+91) 95 870 66555<br>
                         <abbr title="Phone"><i class="fa fa-mobile fa-2x"></i></abbr> (+91) 96 100 88666<br>
-                        <abbr title="Email"><i class="fa fa-envelope fa-2x"></i></abbr> satyaveer@yahoo.com
+                        <abbr title="Email"><i class="fa fa-envelope fa-1x"></i></abbr> satyaveer@yahoo.com
                     </address>
                 </div>
 
@@ -320,7 +320,7 @@
                         Bani Park, Jaipur<br>
                         <abbr title="Phone"><i class="fa fa-mobile fa-2x"></i></abbr> (+91) 93 149 71321<br>
                         <abbr title="Phone"><i class="fa fa-mobile fa-2x"></i></abbr> (+91) 93 141 71321<br>
-                        <abbr title="Email"><i class="fa fa-envelope fa-2x"></i></abbr> globecarriers@globecarriers.net
+                        <abbr title="Email"><i class="fa fa-envelope fa-1x"></i></abbr> globecarriers@globecarriers.net
                     </address>
                 </div>
             </div>
