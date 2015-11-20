@@ -277,13 +277,11 @@ header.top-header h1 {
 }
 
 .bride_groom.bride {
-    background-position-x: -472px;
-    background-position-y: -136px;
+    background-position: -430px -100px;
 }
 
 .bride_groom.groom {
-    background-position-x: -212px;
-    background-position-y: -136px;
+    background-position: -150px -100px;
 }
 
 /******************************************************************************************************/
