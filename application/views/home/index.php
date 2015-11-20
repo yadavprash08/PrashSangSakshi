@@ -78,17 +78,14 @@
                                                                               data-delay="100">Where</span></h2>
             </header>
             <div class="row whenAndWhere">
-                <div class=" col-xs-12 col-md-4 col-sm-12 col-lg-4">
+                <div class=" col-xs-12 col-md-4 col-sm-12 col-lg-4 col-md-offset-1 col-lg-offset-1">
                     <h2><i class="fa fa-bell fa-1x"></i> Engagement</h2>
                     <h4>Sunday December 06, 2015</h4>
                     <h5>05:00 PM onwards</h5>
 
                     <h3>Hotel Laxmi Villas - Jaipur</h3>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-lg-2 col-md-2">
-                    &nbsp;
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 border-map animate" data-animation="zoomIn">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-1 border-map animate" data-animation="zoomIn">
                     <iframe class="border-map" width="100%" frameborder="0" style="border:0"
                             src="https://www.google.com/maps/embed/v1/place?q=Hotel%20Laxmi%20Villas%2C%20Narayan%20Singh%20Circle%2C%20Jaipur&key=AIzaSyBxyqIPaqi9pCu6owQ2Av8tRld82rcZp2A"
                             allowfullscreen></iframe>
@@ -98,17 +95,14 @@
                     &nbsp;
                 </div>
 
-                <div class=" col-xs-12 col-md-4 col-sm-12 col-lg-4">
+                <div class=" col-xs-12 col-md-4 col-sm-12 col-lg-4 col-md-offset-1 col-lg-offset-1">
                     <h2><i class="fa fa-bell fa-1x"></i>Wedding</h2>
                     <h4>Monday December 07, 2015</h4>
                     <h5>08:00 PM onwards</h5>
 
                     <h3>Entertainment Paradise - Jaipur</h3>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-lg-2 col-md-2">
-                    &nbsp;
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 border-map fadeIn animate"
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-1 border-map fadeIn animate"
                      data-animation-delay="500" data-animation="zoomIn">
                     <div class="no-opaque">
                         <iframe width="100%" frameborder="0" style="border:0"
@@ -147,6 +141,19 @@
             <header class="major">
                 <h2 class="h2-center section-header">Family</h2>
             </header>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <h2 class="text-center">
+                        Groom's Family
+                    </h2>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <h2 class="text-center">
+                        Bride's Family
+                    </h2>
+                </div>
+            </div>
             <div class="row family-tree">
                 <?php foreach ($family_data as $key => $val): ?>
                     <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 family-intro animate" data-animation="flipInY"
