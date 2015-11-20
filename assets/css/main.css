@@ -216,7 +216,14 @@ header.top-header h1 {
 }
 
 .color-site-style{
-    color: #F4D03F;
+    color: #A80858;
+}
+
+.contactUs h2{
+    font-size: 40px;
+}
+.contactUs address {
+    font-size: 20px;
 }
 
 .wrapper.style2 {

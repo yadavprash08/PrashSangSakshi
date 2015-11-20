@@ -298,27 +298,28 @@
         </section>
         <div class="container">
             <div class="row">
-                <div class="col-mid-4 col-lg-4">
+                <div class="contactUs col-mid-4 col-lg-3 col-md-offset-1 col-lg-offset-2">
                     <h2>Groom's Side</h2>
                     <address>
                         <strong>Dr. Satyaveer Singh</strong><br>
+                        <strong>Mr. Sushant Yadav</strong>
                         61/213 Pratap Nagar<br>
                         Sanganeer, Jaipur<br>
                         <abbr title="Phone"><i class="fa fa-mobile fa-2x"></i></abbr> (+91) 95 870 66555<br>
+                        <abbr title="Phone"><i class="fa fa-mobile fa-2x"></i></abbr> (+91) 96 100 88666<br>
                         <abbr title="Email"><i class="fa fa-envelope fa-2x"></i></abbr> satyaveer@yahoo.com
                     </address>
                 </div>
-                <div class="col-mid-4 col-lg-4">
-                    &nbsp;
-                </div>
 
-                <div class="col-mid-4 col-lg-4">
+                <div class="contactUs col-mid-4 col-lg-3 col-md-offset-1 col-lg-offset-2">
                     <h2>Bride's Side</h2>
                     <address>
                         <strong>Sh. Shambhu Dayal Agarwal</strong><br>
+                        <strong>Sh. Nishant Agarwal</strong><br>
                         G-399 Pareek College Road<br>
                         Bani Park, Jaipur<br>
                         <abbr title="Phone"><i class="fa fa-mobile fa-2x"></i></abbr> (+91) 93 149 71321<br>
+                        <abbr title="Phone"><i class="fa fa-mobile fa-2x"></i></abbr> (+91) 93 141 71321<br>
                         <abbr title="Email"><i class="fa fa-envelope fa-2x"></i></abbr> globecarriers@globecarriers.net
                     </address>
                 </div>
