@@ -176,6 +176,14 @@ header.top-header {
     font-size: 35px;
 }
 
+.color-black {
+    color: #000000;
+}
+
+.color-black p {
+    color: #000000;
+}
+
 .flip-clock-label {
     font-family: 'Dancing Script', cursive;
     font-size: 1.2em;
@@ -189,7 +197,7 @@ header.top-header h1 {
     font-family: 'Kaushan Script', cursive;
 }
 
-.ganeshaImg{
+.ganeshaImg {
     width: 120px;
     height: 150px;
 }
@@ -215,13 +223,14 @@ header.top-header h1 {
 
 }
 
-.color-site-style{
+.color-site-style {
     color: #A80858;
 }
 
-.contactUs h2{
+.contactUs h2 {
     font-size: 40px;
 }
+
 .contactUs address {
     font-size: 20px;
 }
@@ -233,19 +242,19 @@ header.top-header h1 {
     -moz-opacity: 0.8;
 }
 
-.whenAndWhere h2,h3,h4,h5 {
+.whenAndWhere h2, h3, h4, h5 {
     margin-bottom: 5px;
     margin-top: 2px;
     font-size: 25px;
     font-weight: bolder;
 }
 
-.whenAndWhere h2{
+.whenAndWhere h2 {
     font-size: 40px;
     font-weight: bold;
 }
 
-.no-opaque{
+.no-opaque {
     opacity: 1.0;
     -moz-opacity: 1.0;
 }

@@ -202,7 +202,7 @@
                                          alt="Jai Shree Ganesh">
             </h2>
         </section>
-        <div class="row poem">
+        <div class="row poem color-black">
             <p>Two lives, two hearts </p>
 
             <p>joined together in friendship </p>
@@ -309,7 +309,7 @@
                     <h2>Groom's Side</h2>
                     <address>
                         <strong>Dr. Satyaveer Singh</strong><br>
-                        <strong>Mr. Sushant Yadav</strong>
+                        <strong>Mr. Sushant Yadav</strong><br>
                         61/213 Pratap Nagar<br>
                         Sanganeer, Jaipur<br>
                         <abbr title="Phone"><i class="fa fa-mobile fa-2x"></i></abbr> (+91) 95 870 66555<br>
