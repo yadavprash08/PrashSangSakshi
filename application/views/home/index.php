@@ -126,7 +126,19 @@
 
     <?php
     $family_data = array('SatyaveerSingh.jpg' => 'Dr. Satyaveer Singh',
-        'RajniDevi.jpg' => 'Smt. Rajni Devi'
+                         'RajniDevi.jpg' => 'Smt. Rajni Devi',
+                         'ShambhuDayalAgarwal.jpg' => 'Sh. Shambhu Dayal Agarwal',
+                         'SarojAgarwal.jpg' => 'Smt Saroj Agarwal'
+    );
+
+    $prash_brothers = array(
+        'SushantYadav.jpg' => 'Sushant Yadav'
+    );
+
+    $tina_brothers=array(
+        'SarveshAgarwal.jpg' => 'Sarvesh Agarwal',
+        'NishantAgarwal.jpg' => 'Nishant Agarwal',
+        'TeenaAgarwal.jpg' => 'Teena Agarwal'
     );
     ?>
 
@@ -135,7 +147,6 @@
             <header class="major">
                 <h2 class="h2-center section-header">Family</h2>
             </header>
-
             <div class="row family-tree">
                 <?php foreach ($family_data as $key => $val): ?>
                     <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 family-intro animate" data-animation="flipInY"
@@ -145,6 +156,30 @@
                         <h3><?php echo $val; ?></h3>
                     </div>
                 <?php endforeach; ?>
+
+                <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
+                <?php foreach ($prash_brothers as $key => $val): ?>
+                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-4 family-intro animate col-md-offset-3 col-lg-offset-4" data-animation="flipInY"
+                         data-animation-delay="200">
+                        <img src="<?php echo assets_url("images/${key}") ?>" alt="<?php echo $key; ?>"/>
+
+                        <h3><?php echo $val; ?></h3>
+                    </div>
+                <?php endforeach; ?>
+                </div>
+
+                <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
+                    <div class="row">
+                    <?php foreach ($tina_brothers as $key => $val): ?>
+                        <div class="col-sm-12 col-xs-12 col-md-6 col-lg-4 family-intro animate" data-animation="flipInY"
+                             data-animation-delay="200">
+                            <img src="<?php echo assets_url("images/${key}") ?>" alt="<?php echo $key; ?>"/>
+
+                            <h3><?php echo $val; ?></h3>
+                        </div>
+                    <?php endforeach; ?>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
@@ -174,17 +209,17 @@
     </div>
 
     <?php $gal_images = array('pic01.jpg',
-        'pic02.jpg',
-        'pic03.jpg',
-        'pic04.jpg',
-        'pic05.jpg',
-        'pic06.jpg',
-        'pic07.jpg',
-        'pic08.jpg',
-        'pic09.jpg',
-        'pic10.jpg',
-        'pic11.jpg',
-        'pic12.jpg'); ?>
+                              'pic02.jpg',
+                              'pic03.jpg',
+                              'pic04.jpg',
+                              'pic05.jpg',
+                              'pic06.jpg',
+                              'pic07.jpg',
+                              'pic08.jpg',
+                              'pic09.jpg',
+                              'pic10.jpg',
+                              'pic11.jpg',
+                              'pic12.jpg'); ?>
 
     <!-- Featured -->
     <div class="wrapper style1">
