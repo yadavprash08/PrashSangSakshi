@@ -6,7 +6,7 @@
  * Time: 12:38 PM
  */
 
-$arr_javascripts = array('jquery.magnific-popup.min.js', 'vegas.min.js', 'flipclock.min.js', 'smooth-scroll.js','jquery.waypoints.min.js','modernizr.js', 'main.js');
+$arr_javascripts = array('jquery.magnific-popup.min.js', 'vegas.min.js', 'flipclock.min.js', 'smooth-scroll.js','jquery.waypoints.min.js','modernizr.js', 'jquery.flexslider-min.js', 'main.js');
 if (isset($header_include_js)) {
     array_push($arr_javascripts, $header_include_js);
 }

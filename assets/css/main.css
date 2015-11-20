@@ -176,6 +176,11 @@ header.top-header {
     font-size: 35px;
 }
 
+.slides li{
+    font-size: 25px;
+    text-align: center;
+}
+
 .color-black {
     color: #000000;
 }

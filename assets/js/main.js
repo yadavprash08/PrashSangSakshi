@@ -188,6 +188,10 @@ $(document).ready(function () {
     }
 
     onScrollInit($('.animate'));
+
+    $('.flexslider').flexslider({
+        animation: "slide"
+    });
 });
 
 

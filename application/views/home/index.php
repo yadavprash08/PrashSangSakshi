@@ -246,11 +246,16 @@
                 <h2 class="animate section-header" data-animation="slideInLeft" data-animation-delay="150">Gallery</h2>
             </header>
             <div class="row poem">
-                <p>&nbsp;</p>
-
-                <p>Every love story is beautiful but ours is my favorite.</p>
-
-                <p>&nbsp;</p>
+                <h2 class="text-center"><i class="fa fa-quote-right"></i></h2>
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li>Every love story is beautiful but ours is my favorite.</li>
+                        <li>When I saw you I fell in love, and you smiled because you knew.</li>
+                        <li>In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine.</li>
+                        <li>Two souls but with a  single thought, two hearts that beats as one.</li>
+                        <li>... it’s a blessed thing to love and feel loved in return</li>
+                    </ul>
+                </div>
             </div>
             <div class="row my-gallery">
                 <?php
