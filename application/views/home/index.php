@@ -192,6 +192,8 @@
                     </div>
                 </div>
             </div>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
         </section>
     </div>
     <div class="image-arrows2">&nbsp;</div>
@@ -340,6 +342,10 @@
                 </div>
             </div>
         </div>
+
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
     </div>
 
 </div>
