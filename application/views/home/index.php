@@ -85,7 +85,8 @@
 
                     <h3>Hotel Laxmi Villas - Jaipur</h3>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-1 border-map animate" data-animation="zoomIn">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-1 border-map animate"
+                     data-animation="zoomIn">
                     <iframe class="border-map" width="100%" frameborder="0" style="border:0"
                             src="https://www.google.com/maps/embed/v1/place?q=Hotel%20Laxmi%20Villas%2C%20Narayan%20Singh%20Circle%2C%20Jaipur&key=AIzaSyBxyqIPaqi9pCu6owQ2Av8tRld82rcZp2A"
                             allowfullscreen></iframe>
@@ -247,12 +248,15 @@
             </header>
             <div class="row poem">
                 <h2 class="text-center"><i class="fa fa-quote-right"></i></h2>
+
                 <div class="flexslider">
                     <ul class="slides">
                         <li>Every love story is beautiful but ours is my favorite.</li>
                         <li>When I saw you I fell in love, and you smiled because you knew.</li>
-                        <li>In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine.</li>
-                        <li>Two souls but with a  single thought, two hearts that beats as one.</li>
+                        <li>In all the world, there is no heart for me like yours. In all the world, there is no love
+                            for you like mine.
+                        </li>
+                        <li>Two souls but with a single thought, two hearts that beats as one.</li>
                         <li>... it’s a blessed thing to love and feel loved in return</li>
                     </ul>
                 </div>
@@ -294,9 +298,8 @@
             <h2 class="section-header"> Wishes</h2>
 
             <div class="row">
-                <div class="fb-comments" data-href="https://www.facebook.com/yadavprash08#"
-                     data-width="100%"
-                     data-numposts="10"></div>
+                <div class="fb-comments" data-href="https://www.facebook.com/Prashant-Weds-Sakshi-1490621077910686/"
+                     data-width="100%" data-numposts="10"></div>
             </div>
         </div>
         <div class="image-arrows">&nbsp;</div>
