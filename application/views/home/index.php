@@ -83,7 +83,7 @@
                     <h4>Sunday December 06, 2015</h4>
                     <h5>05:00 PM onwards</h5>
 
-                    <h3>Hotel Laxmi Villas</h3>
+                    <h3>Hotel Laxmi Villas - Jaipur</h3>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-lg-2 col-md-2">
                     &nbsp;
@@ -103,7 +103,7 @@
                     <h4>Monday December 07, 2015</h4>
                     <h5>08:00 PM onwards</h5>
 
-                    <h3>Entertainment Paradise</h3>
+                    <h3>Entertainment Paradise - Jaipur</h3>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-lg-2 col-md-2">
                     &nbsp;
@@ -135,7 +135,7 @@
         'SushantYadav.jpg' => 'Sushant Yadav'
     );
 
-    $tina_brothers=array(
+    $tina_brothers = array(
         'SarveshAgarwal.jpg' => 'Sarvesh Agarwal',
         'NishantAgarwal.jpg' => 'Nishant Agarwal',
         'TeenaAgarwal.jpg' => 'Teena Agarwal'
@@ -158,26 +158,29 @@
                 <?php endforeach; ?>
 
                 <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
-                <?php foreach ($prash_brothers as $key => $val): ?>
-                    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-4 family-intro animate col-md-offset-3 col-lg-offset-4" data-animation="flipInY"
-                         data-animation-delay="200">
-                        <img src="<?php echo assets_url("images/${key}") ?>" alt="<?php echo $key; ?>"/>
-
-                        <h3><?php echo $val; ?></h3>
-                    </div>
-                <?php endforeach; ?>
-                </div>
-
-                <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
-                    <div class="row">
-                    <?php foreach ($tina_brothers as $key => $val): ?>
-                        <div class="col-sm-12 col-xs-12 col-md-6 col-lg-4 family-intro animate" data-animation="flipInY"
-                             data-animation-delay="200">
+                    <?php foreach ($prash_brothers as $key => $val): ?>
+                        <div
+                            class="col-sm-12 col-xs-12 col-md-6 col-lg-4 family-intro animate col-md-offset-3 col-lg-offset-4"
+                            data-animation="flipInY"
+                            data-animation-delay="200">
                             <img src="<?php echo assets_url("images/${key}") ?>" alt="<?php echo $key; ?>"/>
 
                             <h3><?php echo $val; ?></h3>
                         </div>
                     <?php endforeach; ?>
+                </div>
+
+                <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
+                    <div class="row">
+                        <?php foreach ($tina_brothers as $key => $val): ?>
+                            <div class="col-sm-12 col-xs-12 col-md-6 col-lg-4 family-intro animate"
+                                 data-animation="flipInY"
+                                 data-animation-delay="200">
+                                <img src="<?php echo assets_url("images/${key}") ?>" alt="<?php echo $key; ?>"/>
+
+                                <h3><?php echo $val; ?></h3>
+                            </div>
+                        <?php endforeach; ?>
                     </div>
                 </div>
             </div>
@@ -187,6 +190,10 @@
     <div class="wrapper style2">
         <section class="container">
             <h2 class="text-center section-header">Wedding Invitation</h2>
+
+            <h2 class="text-center"><img class="ganeshaImg" src="<?php echo assets_url('images/LordGanesh.png') ?>"
+                                         alt="Jai Shree Ganesh">
+            </h2>
         </section>
         <div class="row poem">
             <p>Two lives, two hearts </p>
@@ -204,6 +211,10 @@
             <p>in a celebration of love </p>
 
             <p>as we exchange our marriage vows </p>
+
+            <p>&nbsp;</p>
+
+            <p><strong> We invite you and your family on 6th - 7th Dec 2015</strong></p>
         </div>
         <div class="image-arrows">&nbsp;</div>
     </div>
