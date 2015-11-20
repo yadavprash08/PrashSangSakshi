@@ -309,7 +309,7 @@
                     <h2>Groom's Side</h2>
                     <address>
                         <strong>Dr. Satyaveer Singh</strong><br>
-                        <strong>Mr. Sushant Yadav</strong><br>
+                        <strong>Sushant Yadav</strong><br>
                         61/213 Pratap Nagar<br>
                         Sanganeer, Jaipur<br>
                         <abbr title="Phone"><i class="fa fa-mobile fa-2x"></i></abbr> (+91) 95 870 66555<br>
