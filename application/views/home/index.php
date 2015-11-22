@@ -121,11 +121,11 @@
 
     <?php
     $family_data = array('SatyaveerSingh.jpg' => 'Dr. Satyaveer Singh',
-                         'RajniDevi.jpg' => 'Smt. Rajni Devi',
-                         'ShambhuDayalAgarwal.jpg' => 'Sh. Shambhu Dayal Agarwal',
-                         'SarojAgarwal.jpg' => 'Smt Saroj Agarwal'
+                         'RajniDevi.jpg' => 'Smt. Rajni Devi');
+    $tina_family_data = array(
+        'ShambhuDayalAgarwal.jpg' => 'Sh. Shambhu Dayal Agarwal',
+        'SarojAgarwal.jpg' => 'Smt Saroj Agarwal'
     );
-
     $prash_brothers = array(
         'SushantYadav.jpg' => 'Sushant Yadav'
     );
@@ -148,38 +148,46 @@
                     <h2 class="text-center">
                         Groom's Family
                     </h2>
+
+                    <div class="row family-tree">
+                        <?php foreach ($family_data as $key => $val): ?>
+                            <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 family-intro animate"
+                                 data-animation="flipInY"
+                                 data-animation-delay="200">
+                                <img src="<?php echo assets_url("images/${key}") ?>" alt="<?php echo $key; ?>"/>
+
+                                <h3><?php echo $val; ?></h3>
+                            </div>
+                        <?php endforeach; ?>
+                        <div class="clearfix">&nbsp;</div>
+                        <?php foreach ($prash_brothers as $key => $val): ?>
+                            <div
+                                class="col-sm-12 col-xs-12 col-md-6 col-lg-4 family-intro animate col-md-offset-3 col-lg-offset-4"
+                                data-animation="flipInY"
+                                data-animation-delay="200">
+                                <img src="<?php echo assets_url("images/${key}") ?>" alt="<?php echo $key; ?>"/>
+
+                                <h3 class="text-center"><?php echo $val; ?></h3>
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
                 </div>
+
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <h2 class="text-center">
                         Bride's Family
                     </h2>
-                </div>
-            </div>
-            <div class="row family-tree">
-                <?php foreach ($family_data as $key => $val): ?>
-                    <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3 family-intro animate" data-animation="flipInY"
-                         data-animation-delay="200">
-                        <img src="<?php echo assets_url("images/${key}") ?>" alt="<?php echo $key; ?>"/>
+                    <div class="row family-tree">
+                        <?php foreach ($tina_family_data as $key => $val): ?>
+                            <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 family-intro animate"
+                                 data-animation="flipInY"
+                                 data-animation-delay="200">
+                                <img src="<?php echo assets_url("images/${key}") ?>" alt="<?php echo $key; ?>"/>
 
-                        <h3><?php echo $val; ?></h3>
-                    </div>
-                <?php endforeach; ?>
-
-                <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
-                    <?php foreach ($prash_brothers as $key => $val): ?>
-                        <div
-                            class="col-sm-12 col-xs-12 col-md-6 col-lg-4 family-intro animate col-md-offset-3 col-lg-offset-4"
-                            data-animation="flipInY"
-                            data-animation-delay="200">
-                            <img src="<?php echo assets_url("images/${key}") ?>" alt="<?php echo $key; ?>"/>
-
-                            <h3><?php echo $val; ?></h3>
-                        </div>
-                    <?php endforeach; ?>
-                </div>
-
-                <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
-                    <div class="row">
+                                <h3><?php echo $val; ?></h3>
+                            </div>
+                        <?php endforeach; ?>
+                        <div class="clearfix">&nbsp;</div>
                         <?php foreach ($tina_brothers as $key => $val): ?>
                             <div class="col-sm-12 col-xs-12 col-md-6 col-lg-4 family-intro animate"
                                  data-animation="flipInY"
@@ -192,7 +200,17 @@
                     </div>
                 </div>
             </div>
+            <div class="row family-tree">
+
+
+                <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
+                    <div class="row">
+
+                    </div>
+                </div>
+            </div>
             <p>&nbsp;</p>
+
             <p>&nbsp;</p>
         </section>
     </div>
@@ -344,6 +362,7 @@
         </div>
 
         <p>&nbsp;</p>
+
         <p>&nbsp;</p>
 
     </div>
